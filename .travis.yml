@@ -31,8 +31,8 @@ before_script:
 
 script:
   - chmod +x ./gradlew
-  - ./gradlew test
-  - ./gradlew assemblerelease
+  - gradlew test
+  - gradlew assemblerelease
 
 deploy:
   provider: releases
